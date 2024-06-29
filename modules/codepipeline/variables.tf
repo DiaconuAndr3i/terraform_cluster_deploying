@@ -42,3 +42,8 @@ variable "file_name_building" {
   description = "Definition of image docker"
   type        = string
 }
+
+variable "codebuild_project_name" {
+  description = "Definition of image docker"
+  type        = string
+}

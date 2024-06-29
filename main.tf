@@ -53,4 +53,5 @@ module "codepipeline" {
   cluster_name               = var.demo_app_cluster_name
   service_name               = var.demo_app_service_name
   file_name_building         = var.file_name_building
+  codebuild_project_name     = var.codebuild_project_name
 }
